@@ -15,7 +15,7 @@
     </div>
 
 </template>
-<script>
+<script type="text/ecmascript-6">
     // 产品列表
     import productList from './product-list/productList';
     // 左侧列表导航

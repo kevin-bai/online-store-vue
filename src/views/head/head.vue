@@ -135,7 +135,7 @@
     </div>
     </div>
 </template>
-<script>
+<script type="text/ecmascript-6">
 import { mapGetters } from 'vuex';
 import cookie from '../../static/js/cookie';
 import { getHotSearch, getCategory ,deleteShopCart } from  '../../api/api'
