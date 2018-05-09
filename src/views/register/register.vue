@@ -47,7 +47,7 @@
 </div>
 </div>
 </template>
-<script>
+<script type="text/ecmascript-6">
 import { register ,getMessage} from '../../api/api'
 import cookie from '../../static/js/cookie';
 export default{

@@ -60,10 +60,10 @@ export const login = params => {
 
 //注册
 
-export const register = parmas => { return axios.post(`${host}/users/`, parmas) }
+export const register = parmas => { return axios.post(`${local_host}/users/`, parmas) }
 
 //短信
-export const getMessage = parmas => { return axios.post(`${host}/code/`, parmas) }
+export const getMessage = parmas => { return axios.post(`${local_host}/code/`, parmas) }
 
 
 //获取用户信息
