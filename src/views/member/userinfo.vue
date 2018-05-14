@@ -12,7 +12,7 @@
                                 <tbody>
                                     <tr>
                                       <td width="28%" align="right" bgcolor="#FFFFFF">姓名： </td>
-                                      <td width="72%" align="left" bgcolor="#FFFFFF"><input name="email" type="text" placeholder="" size="25" class="inputBg" v-model="userInfo.name"></td>
+                                      <td width="72%" align="left" bgcolor="#FFFFFF"><input name="nick_name" type="text" placeholder="" size="25" class="inputBg" v-model="userInfo.nick_name"></td>
                                     </tr>
                                     <tr>
                                         <td width="28%" align="right" bgcolor="#FFFFFF">出生日期： </td>
@@ -55,13 +55,14 @@
         </div>
     </div>
 </template>
-<script>
+<script type="text/ecmascript-6">
 import datepicker from 'vue-date'
 import {getUserDetail, updateUserInfo} from '../../api/api'
     export default {
         data () {
             return {
                 userInfo: {
+                    nick_name:'',
                     birthday: '',
                     sex: '',
                     email: '',
